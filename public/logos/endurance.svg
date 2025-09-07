@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <text x="100" y="35" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600" letter-spacing="1px">
+    ENDURANCE
+  </text>
+  <rect x="30" y="45" width="140" height="2" fill="white" opacity="0.3"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <path d="M85,30 L95,15 L100,25 L105,15 L115,30 Z" fill="white"/>
+  <text x="100" y="45" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1px">
+    MAHINDRA
+  </text>
+</svg>

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="100,15 103,22 110,22 105,27 107,34 100,30 93,34 95,27 90,22 97,22" fill="white"/>
+  <text x="100" y="45" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1px">
+    BLUE STAR
+  </text>
+</svg>

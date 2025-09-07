@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <rect x="70" y="15" width="10" height="30" fill="white"/>
+  <rect x="85" y="15" width="15" height="10" fill="white"/>
+  <rect x="85" y="25" width="10" height="10" fill="white"/>
+  <rect x="85" y="35" width="15" height="10" fill="white"/>
+  <rect x="105" y="15" width="10" height="15" fill="white"/>
+  <rect x="105" y="35" width="10" height="10" fill="white"/>
+  <rect x="120" y="15" width="10" height="30" fill="white"/>
+  <text x="100" y="55" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="8" font-weight="400">
+    GROUP
+  </text>
+</svg>

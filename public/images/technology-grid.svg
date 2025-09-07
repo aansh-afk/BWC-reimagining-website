@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="techGrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect width="60" height="60" fill="rgba(0, 10, 24, 0.9)"/>
+      <circle cx="30" cy="30" r="1" fill="rgba(125, 249, 255, 0.1)"/>
+      <path d="M15,15 L45,15 L45,45 L15,45 Z" fill="none" stroke="rgba(125, 249, 255, 0.02)" stroke-width="0.5"/>
+    </pattern>
+    
+    <radialGradient id="centralGlow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" style="stop-color:rgba(125, 249, 255, 0.08);stop-opacity:1" />
+      <stop offset="70%" style="stop-color:rgba(125, 249, 255, 0.02);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(0, 10, 24, 0.95);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="1200" height="600" fill="url(#techGrid)"/>
+  
+  <!-- Data flow visualization -->
+  <g opacity="0.1">
+    <path d="M200,300 Q400,200 600,300 Q800,400 1000,300" fill="none" stroke="rgba(125, 249, 255, 0.3)" stroke-width="2"/>
+    <path d="M200,320 Q400,420 600,320 Q800,220 1000,320" fill="none" stroke="rgba(229, 184, 11, 0.2)" stroke-width="1.5"/>
+    
+    <!-- Data nodes -->
+    <circle cx="200" cy="300" r="6" fill="rgba(125, 249, 255, 0.4)"/>
+    <circle cx="400" cy="250" r="4" fill="rgba(125, 249, 255, 0.3)"/>
+    <circle cx="600" cy="300" r="5" fill="rgba(125, 249, 255, 0.4)"/>
+    <circle cx="800" cy="350" r="4" fill="rgba(125, 249, 255, 0.3)"/>
+    <circle cx="1000" cy="300" r="6" fill="rgba(125, 249, 255, 0.4)"/>
+  </g>
+  
+  <rect width="1200" height="600" fill="url(#centralGlow)"/>
+</svg>
